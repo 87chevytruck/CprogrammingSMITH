@@ -1,9 +1,9 @@
 /*
 Ricky Smith
-Ch04 Demo Lab 1
+Ch04 Demo Lab 2
 
 String I/O
-Read a string from stdin and then write that string to stdout:
+Read a string from stdout and then write that string to stdout:
 */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(void)
     fgets(userInput, sizeof(userInput), stdin);
 
     printf("Your string was: ");
-    puts(userInput);
+    fputs(userInput, stdout);
     printf("\n");
 
     return 0;
