@@ -1,4 +1,6 @@
 /*
+Ricky Smith
+Ch04 Demo Lab 2
 Input a single character then print the character
 */
 
@@ -15,6 +17,7 @@ int main(void)
 
     printf("Your character was: ");
     putc(userInput, stdout);
+    printf("\n");
 
     return 0;
 }

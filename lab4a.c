@@ -17,7 +17,7 @@ int main(void)
 
     userInput = getchar();
 
-    printf("Your character was: ");
+    printf("Your character is: ");
     putchar(userInput + 1);
     printf("\n");
 
