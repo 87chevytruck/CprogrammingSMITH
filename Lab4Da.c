@@ -21,8 +21,8 @@ int main(void)
     char last [15] = {0};
     
     //scanning for input
-    scanf("%15s%*c%15s%*c%15s", &first, &middle, &last);
-    
+    scanf("%15s\t%15s\t%15s", &first, &middle, &last);
+
     //printing output with new line for each word, and tab  in front of each word
     printf("The full name is: \n\t%s\n\t%s\n\t%s\n", first, middle, last);
 
