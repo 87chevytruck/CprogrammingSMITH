@@ -1,5 +1,7 @@
 /*
-Ricky Smith
+Capstone
+Name:  Ricky Smith
+Date:  16 July 2018
 
 Capstone 1: Flip a single bit using XOR
 
@@ -19,17 +21,17 @@ int main(void)
 {
     uint32_t originalNum = 0;
     uint32_t inputBit = 0;
-    uint32_t num2 = 0;
+    uint32_t result_1 = 0;
     uint32_t inputMask = 1;
 
     //Prompt and then assign original number
     printf("Input a positive number less than 15:  \n");
     scanf("%u", &originalNum);
 
-    uint32_t num1 = ((sizeof(originalNum)*8)-1);
+    uint32_t temp1 = ((sizeof(originalNum)*8)-1);
 
     //Prompt and assign bit to flip
-    printf("Which bit position do you want to flip? (0 through %u) \n", num1);
+    printf("Which bit position do you want to flip? (0 through %u) \n", temp1);
     scanf("%u", &inputBit);
 
     //Creating bit mask from user input bit
@@ -39,9 +41,9 @@ int main(void)
     printf("the inputMask is:  %u \n", inputMask);
     
     //calculating XOR 
-    num2 = originalNum ^ inputMask;
+    result_1 = originalNum ^ inputMask;
 
-    printf("Bitwise XOR is:  %u \n", num2);
+    printf("Bitwise XOR is:  %u \n", result_1);
 
     //converting and printing in binary
     
@@ -76,16 +78,16 @@ int main(void)
 
     printf("inputMask in binary is:  \t%d%d%d%d%d%d%d%d \n", bit8, bit7, bit6, bit5, bit4, bit3, bit2, bit1);
 
-    bit8 = (num2 %256) / 128;
-    bit7 = (num2 %128) / 64;
-    bit6 = (num2 %64) / 32;
-    bit5 = (num2 %32) / 16;
-    bit4 = (num2 %16) / 8;
-    bit3 = (num2 %8) / 4;
-    bit2 = (num2 %4) / 2;
-    bit1 = (num2 %2) / 1;
+    bit8 = (result_1 %256) / 128;
+    bit7 = (result_1 %128) / 64;
+    bit6 = (result_1 %64) / 32;
+    bit5 = (result_1 %32) / 16;
+    bit4 = (result_1 %16) / 8;
+    bit3 = (result_1 %8) / 4;
+    bit2 = (result_1 %4) / 2;
+    bit1 = (result_1 %2) / 1;
 
-    printf("num2 in binary is:  \t\t%d%d%d%d%d%d%d%d \n", bit8, bit7, bit6, bit5, bit4, bit3, bit2, bit1);
+    printf("result_1 in binary is:  \t%d%d%d%d%d%d%d%d \n", bit8, bit7, bit6, bit5, bit4, bit3, bit2, bit1);
     
     return 0;
 }
