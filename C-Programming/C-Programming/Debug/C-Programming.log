@@ -1,2 +1,4 @@
-﻿  7_3_PerfLabA.c
+﻿  8_PerfLabA_hard.c
+c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\8_perflaba_hard.c(109): warning C4018: '<': signed/unsigned mismatch
+c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\8_perflaba_hard.c(96): warning C4716: 'clearInput': must return a value
   C-Programming.vcxproj -> C:\Users\DOTlaptop\Desktop\MyRepos2\C-Programming\Debug\C-Programming.exe
