@@ -1,4 +1,4 @@
-﻿  8_PerfLabA_hard.c
-c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\8_perflaba_hard.c(109): warning C4018: '<': signed/unsigned mismatch
-c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\8_perflaba_hard.c(96): warning C4716: 'clearInput': must return a value
+﻿  EnglishFunctions_round2.c
+c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\englishfunctions_round2.c(64): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\englishfunctions_round2.c(87): warning C4013: 'strcpy' undefined; assuming extern returning int
   C-Programming.vcxproj -> C:\Users\DOTlaptop\Desktop\MyRepos2\C-Programming\Debug\C-Programming.exe
