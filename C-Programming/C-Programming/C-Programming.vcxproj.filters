@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TicTacToe_v2.c">
+    <ClCompile Include="13_Perf_Lab_haystack_needle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
