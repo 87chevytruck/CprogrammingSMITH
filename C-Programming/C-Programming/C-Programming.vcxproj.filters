@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="13_Perf_Lab_haystack_needle.c">
+    <ClCompile Include="14_Perf_Lab_surfin_bird_test_struct_function.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="14_Perf_Lab_surfin_bird_test_struct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="14_surfin_bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

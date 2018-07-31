@@ -76,7 +76,6 @@ int haystack_needle(char *haystack, char *needle, char *buffer)
 // TODO: Using memmove, overwrite the haystack (string)... effectivly removing the needle \
     // HINT: start at the mark_position... that is after all where we need to start replacing.
 
-	//memmove(haystack, haystack, (strlen(haystack)-strlen(needle)));
 	memmove(mark_position, buffer, strlen(buffer) + 1);
 
 	return 0;

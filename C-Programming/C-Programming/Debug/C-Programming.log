@@ -1,2 +1,3 @@
-﻿  13_Perf_Lab_haystack_needle.c
+﻿  14_Perf_Lab_surfin_bird_test_struct.c
+c:\users\dotlaptop\desktop\myrepos2\c-programming\c-programming\14_perf_lab_surfin_bird_test_struct.c(258): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
   C-Programming.vcxproj -> C:\Users\DOTlaptop\Desktop\MyRepos2\C-Programming\Debug\C-Programming.exe
