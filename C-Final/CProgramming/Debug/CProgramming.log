@@ -1,0 +1,6 @@
+﻿  TestCode.c
+c:\users\dotlaptop\desktop\c_cpp_eob_exam\c programming\c programming\cprogramming\testcode.c(110): warning C4047: '==': 'unsigned int' differs in levels of indirection from 'void *'
+c:\users\dotlaptop\desktop\c_cpp_eob_exam\c programming\c programming\cprogramming\testcode.c(110): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+c:\users\dotlaptop\desktop\c_cpp_eob_exam\c programming\c programming\cprogramming\testcode.c(133): warning C4018: '<': signed/unsigned mismatch
+c:\users\dotlaptop\desktop\c_cpp_eob_exam\c programming\c programming\cprogramming\testcode.c(84): warning C4715: 'deleteWord': not all control paths return a value
+  CProgramming.vcxproj -> C:\Users\DOTlaptop\Desktop\C_CPP_EOB_EXAM\C Programming\C Programming\Debug\CProgramming.exe
